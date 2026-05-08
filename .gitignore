@@ -1,0 +1,10 @@
+# Mengabaikan folder target di folder mana pun dalam proyek ini
+**/target/
+
+# Mengabaikan file lock jika Anda ingin versi library tetap fleksibel (opsional)
+# Tapi biasanya untuk project belajar, Cargo.lock tetap di-push tidak masalah.
+# Cargo.lock
+
+# File sementara dari editor atau OS
+.DS_Store
+Thumbs.db
