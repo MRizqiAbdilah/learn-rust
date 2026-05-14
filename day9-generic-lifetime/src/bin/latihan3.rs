@@ -12,7 +12,9 @@ struct LogOperasional<'a> {
 }
 
 impl<'a> LogOperasional<'a> {
-    fn cetak_log(&self) {}
+    fn cetak_log(&self) {
+        println!("Log tercatat untuk area: {}", self.area);
+    }
 }
 
 fn main(){
@@ -21,7 +23,5 @@ fn main(){
     let area = LogOperasional{area: &kelurahan};
 
     LogOperasional::cetak_log(&area);
-
-    println!("{:?}", area);
 }
 

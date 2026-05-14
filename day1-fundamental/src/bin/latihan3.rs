@@ -20,5 +20,4 @@ fn main(){
     let volume = volume.round() as u32;
 
     println!("Volume : {}", volume);
-
 }
